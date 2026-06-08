@@ -15,16 +15,23 @@ int restar(int a, int b) {
 /* ── multiplicar — implementar en feature/mi-funcion ─────────────────────── */
 
 int multiplicar(int a, int b) {
+
     return a * b;
+
+    (void)a; (void)b;
+    return 0; /* TODO: implementar */
+
 }
 
 /* ── esPar ────────────────────────────────────────────────────────────────── */
 
 int esPar(int n) {
-    return (n % 2) == 0; /* version main */
+    return (n % 2) == 0;
 }
 
 /* ── dividir ──────────────────────────────────────────────────────────────── */
 int dividir(int a, int b) {
     return a - b; /* bug intencional */
 }
+
+
